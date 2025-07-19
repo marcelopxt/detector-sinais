@@ -6,7 +6,7 @@ import PIL.Image
 import json
 import os
 import gdown
-
+import pandas as pd
 # --- Caminhos dos Arquivos Salvos (ajuste seus IDs do Drive aqui se usar gdown) ---
 MODEL_FILE_NAME = 'meu_modelo_gestos.keras'
 CLASS_NAMES_FILE_NAME = 'class_names.json'

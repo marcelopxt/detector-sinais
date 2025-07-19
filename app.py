@@ -104,8 +104,8 @@ def main():
         # --- Fim da exibição de df_probs ---
 
     st.markdown("---")
-    st.write("Desenvolvido com TensorFlow e Streamlit")
-    st.write("Para treinar o modelo, execute `python model_trainer.py`, faça o upload dos arquivos `.keras` e `.json` para o Google Drive e atualize os IDs neste script.")
+    
+    
 
 if __name__ == "__main__":
     main()
